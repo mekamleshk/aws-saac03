@@ -1,3 +1,22 @@
+![alt text](image-57.png)
+
+![alt text](image-58.png)
+
+![alt text](image-59.png)
+
+![alt text](image-60.png)
+
+![alt text](image-61.png)
+
+![alt text](image-62.png)
+
+- Dead letter queues allow for messages which are causing repeated processing errors to be moved into a dead letter queue
+
+- in this queue, different processing methods, diagnostic methods or logging methods can be used to identity message faults
+
+![alt text](image-63.png)
+
+
  ![alt text](image-24.png)
  ![alt text](image-25.png)
  ![alt text](image-26.png)
