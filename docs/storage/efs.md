@@ -2,20 +2,20 @@
 
 # EFS can play an essential part in building scalable and resilient systems.
 
- <img src="../image-27.png" />
+ ![alt text](image-27.png)
 
-<img src="../image-28.png" />
+![alt text](image-28.png)
 
-<img src="../image-29.png" />
+![alt text](image-29.png)
 
- <img src="../Screenshot_20260101_173907_YouTube.jpg" /> 
+ ![alt text](Screenshot_20260101_173907_YouTube.jpg) 
 
 <center>
- <img src="../image-1.png" /> 
+ ![alt text](image-1.png) 
 
- <img src="../image-2.png" /> 
+ ![alt text](image-2.png) 
 
- <img src="../image-3.png" /> 
+ ![alt text](image-3.png) 
 
- <img src="../image-4.png" /> 
+ ![alt text](image-4.png) 
 </center>
