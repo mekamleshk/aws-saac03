@@ -15,7 +15,7 @@ theme:
 
   palette:
     - scheme: slate
-      primary: blue
+      primary: dark blue
       accent: orange
       toggle:
         icon: material/brightness-7 
@@ -23,7 +23,7 @@ theme:
 
     - scheme: default
       primary: orange
-      accent: blue
+      accent: dark blue
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
