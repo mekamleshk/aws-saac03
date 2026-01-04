@@ -1,7 +1,5 @@
 site_name: AWS Solution Architect Associate Notes
 
-use_directory_urls: false
-
 theme:
   name: material
   features:
@@ -25,6 +23,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+
+use_directory_urls: false
 
 extra:
   generator: false
