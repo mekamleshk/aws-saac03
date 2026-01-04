@@ -44,7 +44,7 @@ jobs:
       # Sync the built site files from 'site/' folder to your S3 bucket
       - name: Sync files to AWS S3
         run: |
-          aws s3 sync site/ s3://${{ secrets.AWS_S3_BUCKET }} --delete --exclude "*" --include "index.html"
+          aws s3 sync site/ s3://${{ secrets.AWS_S3_BUCKET }} --delete
 
       # Invalidate CloudFront cache (if using CloudFront)
       - name: Invalidate CloudFront cache
