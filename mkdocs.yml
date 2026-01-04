@@ -1,0 +1,164 @@
+site_name: My Docs
+
+site_name: AWS Solution Architect Associate Notes
+theme: readthedocs
+extra_css:
+  - custom.css
+
+nav:
+  - Analytics:
+    - Amazon Athena: analytics/athena.md
+    - AWS Data Exchange: analytics/data-exchange.md
+    - AWS Data Pipeline: analytics/data-pipeline.md
+    - Amazon EMR: analytics/emr.md
+    - AWS Glue: analytics/glue.md
+    - Amazon Kinesis: analytics/kinesis.md
+    - AWS Lake Formation: analytics/lake-formation.md
+    - Amazon Managed Streaming for Apache Kafka (Amazon MSK): analytics/msk.md
+    - Amazon OpenSearch Service: analytics/opensearch.md
+    - Amazon QuickSight: analytics/quicksight.md
+    - Amazon Redshift: analytics/redshift.md
+
+  - Application Integration:
+    - Amazon AppFlow: application-integration/appflow.md
+    - Amazon EventBridge: application-integration/eventbridge.md
+    - Amazon MQ: application-integration/mq.md
+    - Amazon Simple Notification Service (Amazon SNS): application-integration/sns.md
+    - Amazon Simple Queue Service (Amazon SQS): application-integration/sqs.md
+    - AWS Step Functions: application-integration/step-functions.md
+
+  - AWS Cost Management:
+    - AWS Budgets: cost-management/budgets.md
+    - AWS Cost and Usage Report: cost-management/cost-usage-report.md
+    - AWS Cost Explorer: cost-management/cost-explorer.md
+    - Savings Plans: cost-management/savings-plans.md
+
+  - Compute:
+    - AWS Batch: compute/batch.md
+    - Amazon EC2: compute/ec2.md
+    - Amazon EC2 Auto Scaling: compute/ec2-auto-scaling.md
+    - AWS Elastic Beanstalk: compute/elastic-beanstalk.md
+    - AWS Outposts: compute/outposts.md
+    - AWS Serverless Application Repository: compute/serverless-application-repository.md
+    - VMware Cloud on AWS: compute/vmware-cloud-on-aws.md
+    - AWS Wavelength: compute/wavelength.md
+
+  - Containers:
+    - Amazon ECS Anywhere: containers/ecs-anywhere.md
+    - Amazon EKS Anywhere: containers/eks-anywhere.md
+    - Amazon EKS Distro: containers/eks-distro.md
+    - Amazon Elastic Container Registry (Amazon ECR): containers/ecr.md
+    - Amazon Elastic Container Service (Amazon ECS): containers/ecs.md
+    - Amazon Elastic Kubernetes Service (Amazon EKS): containers/eks.md
+
+  - Database:
+    - Amazon Aurora: database/aurora.md
+    - Amazon Aurora Serverless: database/aurora-serverless.md
+    - Amazon DocumentDB (with MongoDB compatibility): database/documentdb.md
+    - Amazon DynamoDB: database/dynamodb.md
+    - Amazon ElastiCache: database/elasticache.md
+    - Amazon Keyspaces (for Apache Cassandra): database/keyspaces.md
+    - Amazon Neptune: database/neptune.md
+    - Amazon Quantum Ledger Database (Amazon QLDB): database/qldb.md
+    - Amazon RDS: database/rds.md
+
+  - Developer Tools:
+    - AWS X-Ray: developer-tools/x-ray.md
+  
+  - Front-End Web and Mobile:
+    - AWS Amplify: front-end-web-and-mobile/amplify.md
+    - Amazon API Gateway: front-end-web-and-mobile/api-gateway.md
+    - AWS Device Farm: front-end-web-and-mobile/device-farm.md
+    - Amazon Pinpoint: front-end-web-and-mobile/pinpoint.md
+
+  - Machine Learning:
+    - Amazon Comprehend: machine-learning/comprehend.md
+    - Amazon Forecast: machine-learning/forecast.md
+    - Amazon Fraud Detector: machine-learning/fraud-detector.md
+    - Amazon Kendra: machine-learning/kendra.md
+    - Amazon Lex: machine-learning/lex.md
+    - Amazon Polly: machine-learning/polly.md
+    - Amazon Rekognition: machine-learning/rekognition.md
+    - Amazon SageMaker: machine-learning/sagemaker.md
+    - Amazon Textract: machine-learning/textract.md
+    - Amazon Transcribe: machine-learning/transcribe.md
+    - Amazon Translate: machine-learning/translate.md
+
+  - Management and Governance:
+    - AWS CloudFormation: management-and-governance/cloudformation.md
+    - AWS CloudTrail: management-and-governance/cloudtrail.md
+    - Amazon CloudWatch: management-and-governance/cloudwatch.md
+    - AWS Compute Optimizer: management-and-governance/compute-optimizer.md
+    - AWS Config: management-and-governance/config.md
+    - AWS Control Tower: management-and-governance/control-tower.md
+    - AWS Health Dashboard: management-and-governance/health-dashboard.md
+    - AWS License Manager: management-and-governance/license-manager.md
+    - Amazon Managed Grafana: management-and-governance/managed-grafana.md
+    - Amazon Managed Service for Prometheus: management-and-governance/managed-prometheus.md
+    - AWS Management Console: management-and-governance/management-console.md
+    - AWS Organizations: management-and-governance/organizations.md
+    - AWS Proton: management-and-governance/proton.md
+    - AWS Service Catalog: management-and-governance/service-catalog.md
+    - AWS Systems Manager: management-and-governance/systems-manager.md
+    - AWS Trusted Advisor: management-and-governance/trusted-advisor.md
+    - AWS Well-Architected Tool: management-and-governance/well-architected-tool.md
+
+  - Media Services:
+    - Amazon Elastic Transcoder: media-services/elastic-transcoder.md
+    - Amazon Kinesis Video Streams: media-services/kinesis-video-streams.md
+
+  - Migration and Transfer:
+    - AWS Application Discovery Service: migration-and-transfer/application-discovery-service.md
+    - AWS Application Migration Service: migration-and-transfer/application-migration-service.md
+    - AWS Database Migration Service (AWS DMS): migration-and-transfer/dms.md
+    - AWS DataSync: migration-and-transfer/datasync.md
+    - AWS Migration Hub: migration-and-transfer/migration-hub.md
+    - AWS Snow Family: migration-and-transfer/snow-family.md
+    - AWS Transfer Family: migration-and-transfer/transfer-family.md
+
+  - Networking and Content Delivery:
+    - AWS Client VPN: networking-and-content-delivery/client-vpn.md
+    - Amazon CloudFront: networking-and-content-delivery/cloudfront.md
+    - AWS Direct Connect: networking-and-content-delivery/direct-connect.md
+    - Elastic Load Balancing (ELB): networking-and-content-delivery/elastic-load-balancing.md
+    - AWS Global Accelerator: networking-and-content-delivery/global-accelerator.md
+    - AWS PrivateLink: networking-and-content-delivery/private-link.md
+    - Amazon Route 53: networking-and-content-delivery/route53.md
+    - AWS Site-to-Site VPN: networking-and-content-delivery/site-to-site-vpn.md
+    - AWS Transit Gateway: networking-and-content-delivery/transit-gateway.md
+    - Amazon VPC: networking-and-content-delivery/vpc.md
+
+  - Security, Identity, and Compliance:
+    - AWS Artifact: security-identity-and-compliance/artifact.md
+    - AWS Audit Manager: security-identity-and-compliance/audit-manager.md
+    - AWS Certificate Manager (ACM): security-identity-and-compliance/acm.md
+    - AWS CloudHSM: security-identity-and-compliance/cloudhsm.md
+    - Amazon Cognito: security-identity-and-compliance/cognito.md
+    - Amazon Detective: security-identity-and-compliance/detective.md
+    - AWS Directory Service: security-identity-and-compliance/directory-service.md
+    - AWS Firewall Manager: security-identity-and-compliance/firewall-manager.md
+    - Amazon GuardDuty: security-identity-and-compliance/guardduty.md
+    - AWS IAM Identity Center (AWS Single Sign-On): security-identity-and-compliance/iam-identity-center.md
+    - AWS Identity and Access Management (IAM): security-identity-and-compliance/iam.md
+    - Amazon Inspector: security-identity-and-compliance/inspector.md
+    - AWS Key Management Service (AWS KMS): security-identity-and-compliance/kms.md
+    - Amazon Macie: security-identity-and-compliance/macie.md
+    - AWS Network Firewall: security-identity-and-compliance/network-firewall.md
+    - AWS Resource Access Manager (AWS RAM): security-identity-and-compliance/resource-access-manager.md
+    - AWS Secrets Manager: security-identity-and-compliance/secrets-manager.md
+    - AWS Security Hub: security-identity-and-compliance/security-hub.md
+    - AWS Shield: security-identity-and-compliance/shield.md
+    - AWS WAF: security-identity-and-compliance/waf.md
+
+  - Serverless:
+    - AWS AppSync: serverless/appsync.md
+    - AWS Fargate: serverless/fargate.md
+    - AWS Lambda: serverless/lambda.md
+
+  - Storage:
+    - AWS Backup: storage/backup.md
+    - Amazon Elastic Block Store (Amazon EBS): storage/ebs.md
+    - Amazon Elastic File System (Amazon EFS): storage/efs.md
+    - Amazon FSx (for all types): storage/fsx.md
+    - Amazon S3: storage/s3.md
+    - AWS Storage Gateway: storage/storage-gateway.md
