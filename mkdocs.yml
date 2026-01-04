@@ -9,19 +9,27 @@ theme:
     - navigation.footer
     - toc.integrate
     - navigation.top
+    - search.suggest
+    - search.highlight
+
   
   font:
-    code: Open Sans
+    code: Roboto Mono
 
   palette:
-    - scheme: slate
-      primary: dark blue
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: light blue
       accent: orange
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
-
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: orange
       accent: dark blue
       toggle:
