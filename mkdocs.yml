@@ -26,7 +26,6 @@ theme:
         name: Switch to light mode
 
 plugins:
-  - optimize
   - offline
   - tags
 
