@@ -1,4 +1,4 @@
-name: Deploy MkDocs to AWS S3 + CloudFront
+name: Deploy MkDocs to S3 + CloudFront
 
 on:
   push:
@@ -27,7 +27,6 @@ jobs:
       - name: Install MkDocs and dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install mkdocs
           pip install mkdocs mkdocs-material
 
       # Build the MkDocs site
@@ -45,11 +44,12 @@ jobs:
       # Sync the built site files from 'site/' folder to your S3 bucket
       - name: Sync files to AWS S3
         run: |
-          aws s3 sync site/ s3://${{ secrets.AWS_S3_BUCKET }} --delete
+          aws s3 sync site/ s3://${{ secrets.AWS_S3_BUCKET }} --delete --exclude "*" --include "index.html"
 
       # Invalidate CloudFront cache (if using CloudFront)
       - name: Invalidate CloudFront cache
         run: |
           aws cloudfront create-invalidation \
             --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} \
-            --paths "/*"
+            --paths "/index.html"  # Invalidate the index.html specifically
+
