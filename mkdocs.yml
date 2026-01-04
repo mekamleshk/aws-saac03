@@ -29,6 +29,7 @@ use_directory_urls: false
 extra:
   generator: false
 
+
 nav:
   - Analytics:
     - Amazon Athena: analytics/athena.md
