@@ -1,6 +1,6 @@
-<img src="../Screenshot_20260101_172737_YouTube.jpg" />
-<img src="../image-6.png" />
-<img src="../image-7.png" />
+![alt text](Screenshot_20260101_172737_YouTube.jpg)
+![alt text](image-6.png)
+![alt text](image-7.png)
 
 # Use AWS Backup to centralize and automate data protection across AWS services and hybrid workloads.
 
