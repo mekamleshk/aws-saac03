@@ -25,10 +25,6 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
-plugins:
-  - offline
-  - tags
-
 
 use_directory_urls: false
 
