@@ -14,13 +14,16 @@ theme:
     code: Roboto
 
   palette:
-    
     - scheme: slate
+      primary: blue
+      accent: orange
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
 
     - scheme: default
+      primary: orange
+      accent: blue
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
