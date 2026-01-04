@@ -11,7 +11,7 @@ theme:
     - navigation.top
   
   font:
-    code: Roboto
+    code: Open Sans
 
   palette:
     - scheme: slate
