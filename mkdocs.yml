@@ -1,4 +1,5 @@
 site_name: AWS Solution Architect Associate Notes
+site_url: https://mekamleshk.github.io/aws-saac03
 
 theme:
   name: material
@@ -10,7 +11,7 @@ theme:
     - navigation.top
   
   font:
-    code: Roboto Mono
+    code: Roboto
 
   palette:
     
@@ -23,6 +24,12 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+
+plugins:
+  - optimize
+  - offline
+  - tags
+
 
 use_directory_urls: false
 
