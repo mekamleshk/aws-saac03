@@ -27,7 +27,6 @@ theme:
 extra:
   generator: false
 
-
 nav:
   - Analytics:
     - Amazon Athena: analytics/athena.md
