@@ -25,6 +25,16 @@ These three features appear most often in SAA-C03 questions.
 
 #### **B. SSM Parameter Store**
 
+- The SSM Parameter store is a service which is part of Systems Manager which allows the storage and retrieval of parameters - string, stringlist or secure string.
+
+- The service supports encryption which integrates with KMS, versioning and can be secured using IAM.
+
+- The service integrates natively with many AWS services - and can be accessed using the CLI/APIs from anywhere with access to the AWS Public Space Endpoints.
+
+![alt text](image-35.png)
+
+![alt text](image-36.png)
+
 * **What it is:** Storage for configuration data (database strings, license codes) and secrets (passwords).
 * **Exam Scenario:** "You need a central location to store configuration variables for a Lambda function and EC2 fleet. The solution must be **low cost**."
 * **Key Concepts:**
