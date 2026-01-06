@@ -1,4 +1,4 @@
-### **1. Core Concept: "Proactive" Cost Control**
+##- **1. Core Concept: "Proactive" Cost Control**
 
 In the exam, if a question asks how to **"prevent overspending"** or **"get notified before costs exceed a limit,"** the answer is almost always **AWS Budgets**.
 
@@ -7,7 +7,7 @@ In the exam, if a question asks how to **"prevent overspending"** or **"get noti
 
 ---
 
-### **2. The 4 Types of Budgets (Exam Scenarios)**
+##- **2. The 4 Types of Budgets (Exam Scenarios)**
 
 You can set up four specific types of budgets. You must know which one applies to which scenario.
 
@@ -20,7 +20,7 @@ You can set up four specific types of budgets. You must know which one applies t
 
 ---
 
-### **3. Alerting Logic: Actual vs. Forecasted**
+##- **3. Alerting Logic: Actual vs. Forecasted**
 
 This is a common "trick" in exam questions. You can set alerts on two different timelines:
 
@@ -35,7 +35,7 @@ This is a common "trick" in exam questions. You can set alerts on two different 
 
 ---
 
-### **4. AWS Budget Actions (High Probability Topic)**
+##- **4. AWS Budget Actions (High Probability Topic)**
 
 This is the most advanced and frequently tested feature. AWS Budgets can do more than just send an email; it can **take action** to stop the spending.
 
@@ -52,7 +52,7 @@ Budget Breach  SNS Topic  Lambda Function (or System Manager)  **Action Executed
 
 ---
 
-### **5. Notifications & Reporting**
+##- **5. Notifications & Reporting**
 
 * **SNS (Simple Notification Service):** Budgets send alerts to an SNS topic. From there, you can fan out to:
 * Email (Managers).
@@ -68,7 +68,7 @@ Budget Breach  SNS Topic  Lambda Function (or System Manager)  **Action Executed
 
 ---
 
-### **6. SAA-C03 Cheat Sheet: Keywords to Watch For**
+##- **6. SAA-C03 Cheat Sheet: Keywords to Watch For**
 
 | If the Exam Question Asks...                           | The Answer is Likely...                                                     |
 | ------------------------------------------------------ | --------------------------------------------------------------------------- |

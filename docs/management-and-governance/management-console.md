@@ -1,4 +1,4 @@
-### **1. Global vs. Regional Views (Classic Exam Trap)**
+##- **1. Global vs. Regional Views (Classic Exam Trap)**
 
 The exam frequently tests if you notice which services are "Global" versus "Regional" in the console. If you are in the `us-east-1` region and switch to a Global service, the region dropdown becomes grayed out or says "Global."
 
@@ -14,7 +14,7 @@ The exam frequently tests if you notice which services are "Global" versus "Regi
 
 
 
-### **2. Resource Groups & Tag Editor (The "Search" Tool)**
+##- **2. Resource Groups & Tag Editor (The "Search" Tool)**
 
 This is a specific tool *inside* the Console (found in the top navigation bar) that often appears in "Operational Excellence" questions.
 
@@ -25,7 +25,7 @@ This is a specific tool *inside* the Console (found in the top navigation bar) t
 
 
 
-### **3. Controlling Console Access (Security Domain)**
+##- **3. Controlling Console Access (Security Domain)**
 
 The exam tests how you secure the "front door."
 
@@ -45,7 +45,7 @@ The exam tests how you secure the "front door."
 
 
 
-### **4. Troubleshooting Dashboards**
+##- **4. Troubleshooting Dashboards**
 
 When "things go wrong," the exam asks which Console dashboard to check.
 
@@ -54,7 +54,7 @@ When "things go wrong," the exam asks which Console dashboard to check.
 | **AWS Service Health Dashboard**  | Status of AWS services **globally** (e.g., "Is S3 down for everyone in the world?") | "You cannot access S3. You want to check if AWS is having a massive outage."                        |
 | **AWS Personal Health Dashboard** | Status of AWS services **affecting YOU** specifically.                              | "You received an email that one of your EC2 instances is on degraded hardware and needs a restart." |
 
-### **5. Cost & Billing Console**
+##- **5. Cost & Billing Console**
 
 While Cost Explorer is a tool, the **Billing Console** is where you configure *governance*.
 
@@ -64,7 +64,7 @@ While Cost Explorer is a tool, the **Billing Console** is where you configure *g
 
 
 
-### **Summary Checklist for Exam Day**
+##- **Summary Checklist for Exam Day**
 
 1. **S3** and **IAM** are Global views in the console.
 2. **Tag Editor** finds resources across regions.

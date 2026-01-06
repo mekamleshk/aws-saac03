@@ -5,21 +5,21 @@ AWS Wavelength embeds AWS compute and storage services directly inside **Telecom
 
 ---
 
-### **2. Key Architecture Concepts for the Exam**
+##- **2. Key Architecture Concepts for the Exam**
 
-#### **Wavelength Zones**
+###- **Wavelength Zones**
 
 * Similar to an Availability Zone (AZ) but located inside a carrier's 5G network (e.g., Verizon in the US, Vodafone in Europe).
 * **VPC Extension:** You extend your existing VPC to a Wavelength Zone. You create a subnet in the Wavelength Zone, just like you would in a regular AZ.
 
-#### **Carrier Gateway**
+###- **Carrier Gateway**
 
 * **Critical Exam Keyword:** Just as an *Internet Gateway* connects a VPC to the Internet, a **Carrier Gateway** allows resources in the Wavelength subnet to communicate with the carrier's mobile network and the internet.
 * **Function:** It performs NAT (Network Address Translation) to assign carrier IP addresses to your EC2 instances so mobile devices can reach them directly.
 
 ---
 
-### **3. Common Exam Scenarios (Use Cases)**
+##- **3. Common Exam Scenarios (Use Cases)**
 
 If a question describes one of these scenarios, look for AWS Wavelength in the answers:
 
@@ -32,7 +32,7 @@ If a question describes one of these scenarios, look for AWS Wavelength in the a
 
 ---
 
-### **4. "Edge" Service Comparison: The Exam Trap**
+##- **4. "Edge" Service Comparison: The Exam Trap**
 
 The exam often asks you to choose between **Outposts**, **Local Zones**, and **Wavelength**. Use this cheat sheet to distinguish them:
 

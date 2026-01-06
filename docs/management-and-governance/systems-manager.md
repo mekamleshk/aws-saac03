@@ -1,4 +1,4 @@
-### **1. The Golden Rule of SSM (Prerequisites)**
+- **1. The Golden Rule of SSM (Prerequisites)**
 
 Before SSM can work on an EC2 instance, two things **must** exist. If an exam scenario says "SSM is not working," check these first:
 
@@ -7,11 +7,11 @@ Before SSM can work on an EC2 instance, two things **must** exist. If an exam sc
 
 ---
 
-### **2. Top 3 "Exam Star" Features**
+- **2. Top 3 "Exam Star" Features**
 
 These three features appear most often in SAA-C03 questions.
 
-#### **A. SSM Session Manager**
+#- **A. SSM Session Manager**
 
 * **What it is:** Allows you to SSH (Linux) or RDP (Windows) into instances directly from the AWS Console or CLI.
 * **The "Killer" Exam Scenario:** "A company requires secure access to EC2 instances **without opening inbound ports** (like port 22 or 3389) and **without managing SSH keys**."
@@ -23,7 +23,7 @@ These three features appear most often in SAA-C03 questions.
 
 
 
-#### **B. SSM Parameter Store**
+#- **B. SSM Parameter Store**
 
 - The SSM Parameter store is a service which is part of Systems Manager which allows the storage and retrieval of parameters - string, stringlist or secure string.
 
@@ -53,7 +53,7 @@ These three features appear most often in SAA-C03 questions.
 
 
 
-#### **C. SSM Patch Manager**
+#- **C. SSM Patch Manager**
 
 * **What it is:** Automates the process of patching managed instances with security updates.
 * **Exam Scenario:** "You need to ensure a fleet of 50 Linux servers is patched with the latest critical security updates every Saturday at 2 AM."
@@ -65,28 +65,28 @@ These three features appear most often in SAA-C03 questions.
 
 ---
 
-### **3. Other Key SSM Capabilities**
+- **3. Other Key SSM Capabilities**
 
-#### **D. SSM Run Command**
+#- **D. SSM Run Command**
 
 * **Concept:** Execute a script/command on one or hundreds of instances simultaneously.
 * **Exam Scenario:** "You need to update a configuration file on 1,000 EC2 instances immediately."
 * **Benefit:** No need to SSH into each machine individually. Results are reported centrally.
 
-#### **E. SSM Automation**
+#- **E. SSM Automation**
 
 * **Concept:** Automates complex maintenance tasks using "Runbooks."
 * **Exam Scenario:** "You need to create a hardened AMI (Amazon Machine Image) every month that includes the latest OS patches."
 * **Mechanism:** SSM Automation can launch an instance -> patch it -> create an image -> terminate the instance.
 
-#### **F. SSM Inventory**
+#- **F. SSM Inventory**
 
 * **Concept:** Collects metadata from your instances.
 * **Exam Scenario:** "You need to generate a report of all software installed on your EC2 fleet to check for unlicensed software."
 
 ---
 
-### **4. Cheat Sheet: Comparison for Exam**
+- **4. Cheat Sheet: Comparison for Exam**
 
 | Feature             | Primary Exam Use Case     | "Trigger" Keywords                                              |
 | ------------------- | ------------------------- | --------------------------------------------------------------- |
@@ -96,7 +96,7 @@ These three features appear most often in SAA-C03 questions.
 | **Patch Manager**   | OS Updates                | Compliance, Maintenance Window, Patch Baseline, CVE fixes.      |
 | **Run Command**     | Bulk actions              | "Across fleet of instances," "No SSH needed," "Execute script." |
 
-### **5. A Typical Exam Question Walkthrough**
+- **5. A Typical Exam Question Walkthrough**
 
 **Question:** A company has an application running on private EC2 instances. A Solutions Architect needs to securely access these instances for troubleshooting. The solution must minimize operational overhead and avoid opening inbound ports to the internet. Which solution should they choose?
 

@@ -2,7 +2,7 @@ Think of it as **"GitHub for AWS Serverless architectures."** It is a library wh
 
 ---
 
-### **1. The Core Exam Concept: "Don't Reinvent the Wheel"**
+##- **1. The Core Exam Concept: "Don't Reinvent the Wheel"**
 
 The primary exam scenario for SAR is **reducing duplicated effort**.
 
@@ -12,9 +12,9 @@ The primary exam scenario for SAR is **reducing duplicated effort**.
 
 ---
 
-### **2. Key Technical Features (Exam Cheat Sheet)**
+##- **2. Key Technical Features (Exam Cheat Sheet)**
 
-#### **A. How it works (The Stack)**
+###- **A. How it works (The Stack)**
 
 * **Underlying Tech:** It runs on **AWS SAM (Serverless Application Model)**.
 * **Deployment:** When you "deploy" an app from the Repository, it actually creates a **CloudFormation Stack** in your account.
@@ -23,7 +23,7 @@ The primary exam scenario for SAR is **reducing duplicated effort**.
 
 
 
-#### **B. Sharing Models (Public vs. Private)**
+###- **B. Sharing Models (Public vs. Private)**
 
 The exam often tests *who* can see your application.
 
@@ -34,14 +34,14 @@ The exam often tests *who* can see your application.
 
 
 
-#### **C. Cost**
+###- **C. Cost**
 
 * **The Service:** **Free.** There is no charge to host or browse the repository.
 * **The Resources:** **You Pay.** If you deploy a Lambda function from the repository, you pay for that Lambda's invocations and duration in your account.
 
 ---
 
-### **3. Serverless Repo vs. AWS Marketplace**
+##- **3. Serverless Repo vs. AWS Marketplace**
 
 This is a common confusion point on the exam.
 
@@ -54,7 +54,7 @@ This is a common confusion point on the exam.
 
 ---
 
-### **4. Example Exam Question Scenario**
+##- **4. Example Exam Question Scenario**
 
 **Question:** A company wants to standardize a serverless backend for their mobile apps. Multiple development teams need to use the same backend structure (API Gateway + Lambda + DynamoDB) but strictly within their own AWS accounts. The solution must minimize code duplication and ensure all teams use the approved architecture.
 

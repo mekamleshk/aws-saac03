@@ -1,11 +1,11 @@
-### **1. The Core Concept**
+##- **1. The Core Concept**
 
 AWS Service Catalog allows organizations to create and manage catalogs of IT services that are approved for use on AWS.
 
 * **The Problem it Solves:** Developers want to launch resources quickly, but the Security team doesn't want to give them full Admin access to creating whatever they want.
 * **The Solution:** The Security/Cloud team creates "Approved Templates" (Products) and puts them in a "Menu" (Portfolio). Developers can only launch items from this menu.
 
-### **2. Key Vocabulary (Exam Keywords)**
+##- **2. Key Vocabulary (Exam Keywords)**
 
 * **Product:**
 * A product is an IT service that you want to make available for deployment.
@@ -29,7 +29,7 @@ AWS Service Catalog allows organizations to create and manage catalogs of IT ser
 
 ---
 
-### **3. The #1 Exam Topic: "Launch Constraints" (The Magic Trick)**
+##- **3. The #1 Exam Topic: "Launch Constraints" (The Magic Trick)**
 
 This is the most frequent Service Catalog question pattern on the exam.
 
@@ -50,7 +50,7 @@ You use **Service Catalog with a Launch Constraint**.
 
 ---
 
-### **4. Deployment & Sharing (Multi-Account Strategy)**
+##- **4. Deployment & Sharing (Multi-Account Strategy)**
 
 The exam often asks how to share these standard templates across a large organization with many AWS accounts.
 
@@ -60,7 +60,7 @@ The exam often asks how to share these standard templates across a large organiz
 
 ---
 
-### **5. Cheat Sheet Summary**
+##- **5. Cheat Sheet Summary**
 
 | Feature              | Exam Concept                                                                                                                |
 | -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
@@ -70,7 +70,7 @@ The exam often asks how to share these standard templates across a large organiz
 | **Launch Role**      | Allows users to provision resources they normally don't have access to (Security via Obscurity/Proxy).                      |
 | **Tagging**          | You can enforce **TagOption Libraries** to ensure every resource launched automatically has the correct Cost Center tags.   |
 
-### **Typical Exam Question Format**
+##- **Typical Exam Question Format**
 
 **Q:** A company wants to ensure that developers only deploy RDS databases that are encrypted and use a specific instance size. The solution must minimize administrative overhead and allow developers to deploy these databases on demand.
 

@@ -1,6 +1,6 @@
-# The Elastic File System (EFS) is an AWS managed implementation of NFS which allows for the creation of shared 'filesystems' which can be mounted within multi EC2 instances.
+- The Elastic File System (EFS) is an AWS managed implementation of NFS which allows for the creation of shared 'filesystems' which can be mounted within multi EC2 instances.
 
-# EFS can play an essential part in building scalable and resilient systems.
+- EFS can play an essential part in building scalable and resilient systems.
 
  ![alt text](image-27.png)
 

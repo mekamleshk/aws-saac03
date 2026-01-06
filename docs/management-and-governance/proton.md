@@ -1,4 +1,4 @@
-### **1. What is AWS Proton? (The "Elevator Pitch")**
+##- **1. What is AWS Proton? (The "Elevator Pitch")**
 
 AWS Proton is a **fully managed delivery service** designed for **Platform Engineering teams** to manage infrastructure for **container** and **serverless** applications.
 
@@ -7,7 +7,7 @@ AWS Proton is a **fully managed delivery service** designed for **Platform Engin
 
 ---
 
-### **2. Key Exam Terminology**
+##- **2. Key Exam Terminology**
 
 To answer Proton questions correctly, look for these specific terms:
 
@@ -22,7 +22,7 @@ To answer Proton questions correctly, look for these specific terms:
 
 ---
 
-### **3. "Cheat Sheet": Proton vs. Service Catalog vs. CloudFormation**
+##- **3. "Cheat Sheet": Proton vs. Service Catalog vs. CloudFormation**
 
 This is the most confusing part for candidates. Here is how to pick the right answer:
 
@@ -39,7 +39,7 @@ This is the most confusing part for candidates. Here is how to pick the right an
 
 ---
 
-### **4. Typical Exam Scenario**
+##- **4. Typical Exam Scenario**
 
 **Question:**
 
@@ -51,7 +51,7 @@ This is the most confusing part for candidates. Here is how to pick the right an
 
 ---
 
-### **5. Summary for SAA-C03**
+##- **5. Summary for SAA-C03**
 
 You do **not** need to know how to write a Proton template (Jinja code) for the exam. You **do** need to know:
 
